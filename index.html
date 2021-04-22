@@ -89,18 +89,14 @@
     <div class="container" id="main">
       <div class="jumbotron">
         <div class="text-center">
-          <h1 id="title" class="display-1">Leonardo da Vinci</h1>
+          <h1 id="title">Leonardo da Vinci</h1>
         </div>
         <h2 class="text-center">
           "Simplicity is the ultimate sophistication."
         </h2>
         <div id="img-div">
           <figure>
-            <img
-              id="image"
-              src="./img/da-vinci-invention.jpg"
-              alt=""
-            />
+            <img id="image" src="./img/da-vinci-invention.jpg" alt="" />
             <!--Image from https://www.marxist.com/ -->
             <figcaption id="img-caption" class="caption thumbnail">
               Notebook of Leonardo da Vinci ("The Codex Arundel"). A collection
@@ -286,15 +282,15 @@
       <hr />
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/lFN5hRukDlo"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              src="https://www.youtube.com/embed/lFN5hRukDlo"
+              title="Leonardo da Vinci Biography"
+              class="embed-responsive-item"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <div id="quote2" class="col-xs-12 col-md-6 text-right">
           "Life is pretty simple:<br />You do some stuff<br />Most fails<br />Some
@@ -304,7 +300,7 @@
         </div>
       </div>
       <footer>
-        For more information visit
+        For more information visit<br />
         <a
           id="tribute-link"
           href="https://en.wikipedia.org/wiki/Leonardo_da_Vinci"

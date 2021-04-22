@@ -144,7 +144,7 @@ h2 {
   color: #8B635C;
 }
 
-strong {
+strong, h1, h2 {
   display: block;
   font-weight: bold;
   font-style: normal;
@@ -152,6 +152,12 @@ strong {
 
 .row, footer, .thumbnail, #quote2 {
   padding: 1em;
+}
+
+@media (min-width:991px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
 /* ==========================================================================
    Helper classes
