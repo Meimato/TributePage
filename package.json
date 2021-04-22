@@ -1,10 +1,14 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "name": "leonardo-da-vinci-tribute-page",
+  "version": "1.0",
+  "description": "A tribute page for Leonardo da Vinci",
+  "keywords": [
+    "tribute page",
+    "responsive design",
+    "freeCodeCamp project"
+  ],
+  "license": "MIT",
+  "author": "Gabriele Ferro <gabrielluzzo@gmail.com> (https://ferrogabriele.wordpress.com/)",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
