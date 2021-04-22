@@ -7,4 +7,4 @@ This version on GitHub uses HTML5 boilerplate and I'll be improving it over time
 
 https://codepen.io/Meimato/full/GWPodG
 
-![Responsive_Web_Design_Tribute_Page](https://user-images.githubusercontent.com/26794526/115637733-24acad80-a311-11eb-8efd-679383b44164.png)
+![Responsive_Web_Design_Tribute_Page](https://user-images.githubusercontent.com/26794526/115677455-c7d0e780-a350-11eb-8437-654cccb0fbd1.png)
