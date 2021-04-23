@@ -133,15 +133,15 @@ footer {
   margin-bottom: -1em;
 }
 
-h1, h2 {
+h1, h2, .blockquote p {
   font-family: Lobster, "Lucida Grande", Verdana, Lucida, Arial, Helvetica,
     sans-serif;
   margin: 2rem 0;
   color: #28464B;
 }
 
-h2 {
-  color: #8B635C;
+h2, .my-link, .blockquote p {
+  color: #8B685F;
 }
 
 strong, h1, h2 {
@@ -152,6 +152,10 @@ strong, h1, h2 {
 
 .row, footer, .thumbnail, #quote2 {
   padding: 1em;
+}
+
+figcaption {
+  background-color: #E2E7E0;
 }
 
 @media (min-width:991px) {
